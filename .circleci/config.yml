@@ -8,10 +8,7 @@ jobs:
       - run:
          name: Ensure backend exists
          command: 
-           aws cloudformation deploy \
-             --template-file ourinfra.yml \
-             --stack-name my-stack 
-             --region us-west-2
+           aws cloudformation deploy --template-file ourinfra.yml --stack-name my-stack --region us-west-2
 workflows:
   my-workflow:
     jobs:
