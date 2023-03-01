@@ -7,7 +7,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: ansible-learnKP
+      KeyName: kuchbhi
       ImageId: 'ami-0735c191cf914754d'
       InstanceType: t2.micro
   InstanceSecurityGroup:
